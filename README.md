@@ -1,14 +1,18 @@
-# moon shell completion
+# moon shell completion wrapper
 
-## fish
+Provide a simple wrapper to support completions `author/module`.
 
-### install
+### download for fish
 
 ```shell
-curl -o ~/.config/fish/completions/moon.fish -fsSL  https://raw.githubusercontent.com/moonbit-community/shell-completion/main/moon.fish
+curl -O https://raw.githubusercontent.com/moonbit-community/shell-completion/main/moon.fish
 ```
 
-Now you can complete the module name in the `fish` shell.
+### download for bash
+
+```shell
+curl -O https://raw.githubusercontent.com/moonbit-community/shell-completion/main/moon.bash
+```
 
 https://github.com/user-attachments/assets/161e7f75-c9a2-4db5-aff7-1bfabd1ca603
 

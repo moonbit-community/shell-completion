@@ -582,8 +582,6 @@ complete -c moon -n "__fish_moon_using_subcommand help; and __fish_seen_subcomma
 complete -c moon -n "__fish_moon_using_subcommand help; and __fish_seen_subcommand_from coverage" -f -a "clean" -d 'Clean up coverage artifacts'
 complete -c moon -n "__fish_moon_using_subcommand help; and __fish_seen_subcommand_from tool" -f -a "format-and-diff" -d 'Format the code and print the difference'
 complete -c moon -n "__fish_moon_using_subcommand help; and __fish_seen_subcommand_from tool" -f -a "embed"
-
-
 ## support complete author/module
 
 set -l user_path ~/.moon/registry/index/user
