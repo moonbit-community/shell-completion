@@ -2,6 +2,11 @@
 
 ## fish
 
+### install
+
+```shell
+curl -o ~/.config/fish/completions/moon.fish -fsSL  https://raw.githubusercontent.com/moonbit-community/shell-completion/main/moon.fish
+```
 
 Now you can complete the module name in the `fish` shell.
 
